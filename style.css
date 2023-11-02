@@ -12,3 +12,28 @@ html, body {
   color: #ffffff;
   scroll-behavior: smooth;
 }
+
+/* CSS for the top navigation bar */
+.topnav {
+  background-color: #333; /* Background color of the navigation bar */
+  overflow: hidden; /* Clear floats inside the navigation bar */
+
+  /* Style for the navigation links */
+}
+
+.topnav a {
+  float: left; /* Make the links appear side by side */
+  display: block; /* Turn the links into block elements */
+  color: white; /* Text color */
+  text-align: center; /* Center-align the text within the links */
+  padding: 14px 16px; /* Padding around the links (top and bottom, left and right) */
+  text-decoration: none; /* Remove underlines from links */
+
+  /* Transition effect on hover */
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #ddd; /* Background color on hover */
+  color: black; /* Text color on hover */
+}
