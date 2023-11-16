@@ -1,0 +1,267 @@
+/* This affects the whole body of our webpage */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* This affects the whole body of our webpage */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #363b77;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+/* Affects the line spacing between each line for our webpage */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* removes the bullet points that come pre-rendered on lists */
+ul, ol {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+
+#_whole {
+    height: 100%;
+}
+
+/* a class name for styling for the top-header section */
+.web-header-1 {
+    top: 0;
+    width: 100%;
+
+}
+
+
+/* min height sets the viewport of our header for the screen  */
+.web-header-1 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.web-header-w1-f0sp {
+    position: relative;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+}
+
+/* key; 
+    c = container
+    w = webpage
+    t = top
+    i = inner
+    n = navigation
+    the last four characters are random to add differences between the class name styles, makes it easier when you are looking for groups of things you want to change for the div boxes.
+    We can change them if its too confusing.
+*/
+
+.ctp-kj9i{
+    display: block;
+}
+
+/* height here changes the size of our header
+useful if we ever want to make our logo bigger*/
+.cwt1-am9s {
+    display: flex;
+    position: relative;
+    height: 150px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+}
+
+.ctwi-logo {
+    width: 10%;
+    
+}
+
+.logo-wrap {
+    display: block;
+    position: relative;
+}
+
+/* Dimensions for our logo*/
+
+.logo img {
+    width: 100px;
+    height: 105px;
+}
+
+.img {
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.cwtnit-2apj {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.cwti-v3jp {
+    display: flex;
+    padding-right: 16px;
+    align-items: center;
+    height: 100%;
+}
+
+.cwtni-wsdp {
+    display: flex;
+    align-items: stretch;
+}
+
+.cwtnit-9a13 {
+    text-decoration: none;
+}
+
+/* This class adjusts the text headers within our list
+   flex sends our items to the top of the grid box.
+   align-items centers our text to have equal top and bottom padding with its box
+   
+*/
+.cwtnit-a2js {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 80px;
+    font-weight: 400;
+    border-bottom: 4px solid transparent;
+}
+
+/* Styling for our text within our list
+ We can change this later
+
+*/
+.cwtnit-sa3j {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    inline-size: 0;
+}
+
+/* controls the main middle section of our webpage (parts after the header)*/
+
+.mwpa-ds2m {
+    flex: 1;
+    -ms-flex: 1;
+    }
+
+main {
+    display: block;
+}
+
+
+/* Key;
+    m = main
+    w = webpage
+    at the moment its(p)aragraph (a)rticle but we'll will change this later
+
+*/
+.mwpa-dap3 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 32px;
+    display: flex;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.mwpa-d3hk {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mwpa-dap3 {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+/* article padding and box*/
+.amwpa-2rjp {
+    display: block;
+    position: relative;
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+
+/* article section box*/
+
+.aodp3 {
+    max-width: 14em;
+}
+
+
+/*footer styling*/
+
+.fcb-ek3p{
+    width: 100%;
+    background-color: #363b77;
+}
+
+.fcb-p3le {
+    display: block;
+    padding: 2rem, 2rem;
+}
+
+.fcbf-sm23{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-top: 8px;
+    align-items: flex-start;
+}
+
+.fcbft-dsml {
+    flex-basis: 100%;
+
+}
+
+.fcbft-fg3r{
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+    padding-bottom: 10px;
+    display: block;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.fcbm-g34o{
+    box-sizing: border-box;
+    margin: 0;
+    flex-direction: row;
+}
+
+
+.fcbm-efko{
+    display: inline-flex;
+    width: 6em;
+    height: 3em;
+    
+}
+
