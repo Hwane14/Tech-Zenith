@@ -322,7 +322,7 @@ button:hover {
 
 
 /* Footer styling */
-footer {
+/*footer {
   background-color: #272629;
   color: white;
   text-align: center;
@@ -331,7 +331,7 @@ footer {
   bottom: 0;
   width: 100%;
   border-top: 5px solid #5fa31c;
-}
+} */
 
 /* Styling for copyright text */
 footer p {
