@@ -937,7 +937,7 @@ box-shadow: none;
 .fcipf-elk4:hover {
     text-decoration: none;
     background-color: rgba(25, 118, 210, 0.04);
-    border: 1px solid #1976d2;
+    border: 1px solid #000000;
 }
 
 @media (hover: none) {
@@ -948,8 +948,8 @@ box-shadow: none;
 
 .fcipf-elk4:hover{
     color: #000000;
-    background: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    background: #5fa31c;
+    background-color: #5fa31c;
 }
 
 .fcipb-e2k1{
