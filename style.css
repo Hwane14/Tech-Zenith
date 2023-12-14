@@ -3,6 +3,8 @@
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: black;
@@ -13,6 +15,44 @@ header {
   font-weight: 400;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+
+}
+
+
+article, nav, footer, figure, header, section, summary, main {
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  color: grey;
+  background-color: transparent;
+}
+
+a img {
+  border: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 
 /* Navigation styling */
 nav {
